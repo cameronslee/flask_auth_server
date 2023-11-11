@@ -60,7 +60,7 @@ cd auth
 
 export FLASK_APP=auth_server
 
-flask db-init
+flask init-db
 ```
 ### Sample Population Script via SQLITE3 CLI (emulates registering application)
 ```
